@@ -11,7 +11,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     env:
-      TF_VAR_enviroment: ${{ vars.APP_ENV }}
+      TF_VAR_environment: ${{ vars.APP_ENV }}
 
     steps:
       - name: Obtener código
